@@ -3,4 +3,10 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cat_string">Category Fragment</string>
+    <string name="to_detail_category">To Detail of This Category</string>
+    <string name="string_cat_name">Category Name</string>
+    <string name="stringCatDesc">Category Description</string>
+    <string name="string_to_go_to_pofile">Go To Profile</string>
+    <string name="string_show_dialog">Show Dialog</string>
 </resources>

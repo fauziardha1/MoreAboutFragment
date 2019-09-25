@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/layout_margin_vertical"
+    android:layout_marginLeft="@dimen/layout_margin_horizontal"
+    android:layout_marginBottom="@dimen/layout_margin_vertical"
+    android:layout_marginRight="@dimen/layout_margin_horizontal"
+    tools:context=".fragment.CategoryFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCategoryFragment"
+        android:text="@string/cat_string"
+        android:textSize="25sp"
+        android:layout_marginTop="@dimen/layout_margin_vertical"
+        android:layout_marginLeft="@dimen/layout_margin_horizontal"
+        android:layout_marginRight="@dimen/layout_margin_horizontal"
+        android:layout_marginBottom="@dimen/layout_margin_vertical"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_to_Detail_Fragment"
+        android:layout_margin="@dimen/layout_margin_vertical"
+        android:text="@string/to_detail_category"
+        />
+</LinearLayout>
